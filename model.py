@@ -1,5 +1,4 @@
-# 这里没有使用局部encoder，只使用全局嵌入
-
+# edited by LWL
 from loss import MultiCEFocalLoss
 import torch
 from torch import nn
@@ -385,7 +384,7 @@ class MyRobertamodel(RobertaPreTrainedModel):
         context_att = torch.bmm(context_mask, final_att)    # bsz * span_num * hidsize
 
         '''
-        这里加入局部上下文池化
+        这里加入局部上下文池化  
         '''
         b_rs = self.context_pooling(b_att, trigger_att, start_feature)
         e_rs = self.context_pooling(e_att, trigger_att, end_feature)
