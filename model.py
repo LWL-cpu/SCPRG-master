@@ -158,10 +158,9 @@ class MyBertmodel(BertPreTrainedModel):
             info_dict = info_dicts[i]
             event_emb.append(last_hidden_state[i][info_dict['event_idx']])
             role_emb.append(last_hidden_state[i][info_dict['role_idxs']])
-        event_emb = torch.stack(event_emb, dim=0)
+        event_emb = torch.stack(event_emb, dim=0)  # role embedding
 
         span_num = spans.size(1)
-        # ================= FUSION =================
         loss = 0
         global_feature = last_hidden_state
         global_att = attention.mean(1)
@@ -186,7 +185,7 @@ class MyBertmodel(BertPreTrainedModel):
         context_att = torch.bmm(context_mask, final_att)    # bsz * span_num * hidsize
 
         '''
-        这里加入局部上下文池化
+        Span-trigger-based contextual pooling
         '''
         b_rs = self.context_pooling(b_att, trigger_att, start_feature)
         e_rs = self.context_pooling(e_att, trigger_att, end_feature)
@@ -195,7 +194,7 @@ class MyBertmodel(BertPreTrainedModel):
         b_feature_fin = torch.tanh(self.begin_extractor(torch.cat((b_feature, b_rs), dim=-1)))
         e_feature_fin = torch.tanh(self.end_extractor(torch.cat((e_feature, e_rs), dim=-1)))
         context_feature_fin = torch.tanh(self.context_extractor(torch.cat((context_feature, context_rs), dim=-1)))
-        # 获取role embedding的表征
+        
         span_feature = torch.cat((b_feature_fin, e_feature_fin, context_feature_fin), dim=-1)
         span_feature = self.transform_span(span_feature)
 
@@ -228,7 +227,6 @@ class MyBertmodel(BertPreTrainedModel):
                 loss += self.lambda_boundary * (loss_fct(start_logits.view(-1, 2), start_labels.contiguous().view(-1)) \
                                                 + loss_fct(end_logits.view(-1, 2), end_labels.contiguous().view(-1))
                                                 )
-        #loss += ident_loss
         return {
             'loss': loss,
             'logits': logits,
@@ -384,7 +382,7 @@ class MyRobertamodel(RobertaPreTrainedModel):
         context_att = torch.bmm(context_mask, final_att)    # bsz * span_num * hidsize
 
         '''
-        这里加入局部上下文池化  
+        Span-trigger-based contextual pooling  
         '''
         b_rs = self.context_pooling(b_att, trigger_att, start_feature)
         e_rs = self.context_pooling(e_att, trigger_att, end_feature)
