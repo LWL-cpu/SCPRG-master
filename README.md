@@ -15,6 +15,7 @@ You can refer to our [paper](https://aclanthology.org/2023.findings-acl.817) for
 <div align=center>
 <img width="800" height="350" src="./model.png"/>
 </div>
+
 ## 🚀 How to use our code?
 
 ### 1. Dependencies
