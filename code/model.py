@@ -7,7 +7,6 @@ from torch.nn import CrossEntropyLoss
 from transformers.models.bert import BertPreTrainedModel, BertModel
 from transformers.models.roberta import RobertaModel, RobertaConfig
 from transformers.modeling_utils import PreTrainedModel
-import dgl.nn.pytorch as dglnn
 from opt_einsum import contract
 from long_seq import process_long_input
 
