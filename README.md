@@ -64,7 +64,7 @@ And you can evaluate the model by the following scripts.
 >> bash evaluate_wikievent.sh
 ```
 
-You can download our best model checkpoint. [here]()
+You can download our best model checkpoint. [here](https://drive.google.com/drive/folders/1hUovlrl5aRi8b84KhHS5DOg0tzT_1JyB?usp=sharing)
 
 ## 🌝 Citation
 
