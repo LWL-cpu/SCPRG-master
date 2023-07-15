@@ -23,7 +23,6 @@ You can refer to our [paper](https://aclanthology.org/2023.findings-acl.817) for
 - pytorch==1.9.0
 - transformers==4.8.1
 - datasets==1.8.0
-- dgl-cu111==0.6.1
 - tqdm==4.49.0
 - spacy==3.2.4
 - opt_einsum
