@@ -1,0 +1,139 @@
+artifactexistence.damagedestroy.n/a damagerdestroyer 1 artifact 1 instrument 1 place 1
+artifactexistence.damagedestroy.damage damager 1 artifact 1 instrument 1 place 1
+artifactexistence.damagedestroy.destroy destroyer 1 artifact 1 instrument 1 place 1
+conflict.attack.n/a attacker 1 target 1 instrument 1 place 1
+conflict.attack.airstrikemissilestrike attacker 1 target 1 instrument 1 place 1
+conflict.attack.biologicalchemicalpoisonattack attacker 1 target 1 instrument 1 place 1
+conflict.attack.bombing attacker 1 target 1 instrument 1 place 1
+conflict.attack.firearmattack attacker 1 target 1 instrument 1 place 1
+conflict.attack.hanging attacker 1 target 1 instrument 1 place 1
+conflict.attack.invade attacker 1 target 1 instrument 1 place 1
+conflict.attack.selfdirectedbattle attacker 1 target 1 instrument 1 place 1
+conflict.attack.setfire attacker 1 target 1 instrument 1 place 1
+conflict.attack.stabbing attacker 1 target 1 instrument 1 place 1
+conflict.attack.stealrobhijack attacker 1 target 1 instrument 1 place 1 artifact 1
+conflict.attack.strangling attacker 1 target 1 instrument 1 place 1
+conflict.demonstrate.n/a demonstrator 1 place 1
+conflict.demonstrate.marchprotestpoliticalgathering demonstrator 1 place 1
+conflict.yield.n/a yielder 1 recipient 1 place 1
+conflict.yield.retreat retreater 1 origin 1 destination 1
+conflict.yield.surrender surrenderer 1 recipient 1 place 1
+contact.collaborate.n/a participant 2 place 1
+contact.collaborate.correspondence participant 2 place 1
+contact.collaborate.meet participant 2 place 1
+contact.commandorder.n/a communicator 1 recipient 1 place 1
+contact.commandorder.broadcast communicator 1 recipient 1 place 1
+contact.commandorder.correspondence communicator 1 recipient 1 place 1
+contact.commandorder.meet communicator 1 recipient 1 place 1
+contact.commitmentpromiseexpressintent.n/a communicator 1 recipient 1 place 1
+contact.commitmentpromiseexpressintent.broadcast communicator 1 recipient 1 place 1
+contact.commitmentpromiseexpressintent.correspondence communicator 1 recipient 1 place 1
+contact.commitmentpromiseexpressintent.meet communicator 1 recipient 1 place 1
+contact.discussion.n/a participant 2 place 1
+contact.discussion.correspondence participant 2 place 1
+contact.discussion.meet participant 2 place 1
+contact.funeralvigil.n/a participant 2 deceased 1 place 1
+contact.funeralvigil.meet participant 2 deceased 1 place 1
+contact.mediastatement.n/a communicator 1 recipient 1 place 1
+contact.mediastatement.broadcast communicator 1 recipient 1 place 1
+contact.negotiate.n/a participant 2 place 1
+contact.negotiate.correspondence participant 2 place 1
+contact.negotiate.meet participant 2 place 1
+contact.prevarication.n/a communicator 1 recipient 1 place 1
+contact.prevarication.broadcast communicator 1 recipient 1 place 1
+contact.prevarication.correspondence communicator 1 recipient 1 place 1
+contact.prevarication.meet communicator 1 recipient 1 place 1
+contact.publicstatementinperson.n/a communicator 1 recipient 1 place 1
+contact.publicstatementinperson.broadcast communicator 1 recipient 1 place 1
+contact.requestadvise.n/a communicator 1 recipient 1 place 1
+contact.requestadvise.broadcast communicator 1 recipient 1 place 1
+contact.requestadvise.correspondence communicator 1 recipient 1 place 1
+contact.requestadvise.meet communicator 1 recipient 1 place 1
+contact.threatencoerce.n/a communicator 1 recipient 1 place 1
+contact.threatencoerce.broadcast communicator 1 recipient 1 place 1
+contact.threatencoerce.correspondence communicator 1 recipient 1 place 1
+contact.threatencoerce.meet communicator 1 recipient 1 place 1
+disaster.accidentcrash.accidentcrash driverpassenger 1 vehicle 1 crashobject 1 place 1
+disaster.fireexplosion.fireexplosion fireexplosionobject 1 instrument 1 place 1
+government.agreements.n/a participant 2 place 1
+government.agreements.acceptagreementcontractceasefire participant 2 place 1
+government.agreements.rejectnullifyagreementcontractceasefire rejecternullifier 1 otherparticipant 1 place 1
+government.agreements.violateagreement violator 1 otherparticipant 1 place 1
+government.formation.n/a gpe 1 founder 1 place 1
+government.formation.mergegpe participant 2 place 1
+government.formation.startgpe gpe 1 founder 1 place 1
+government.legislate.legislate governmentbody 1 law 1 place 1
+government.spy.spy spy 1 observedentity 1 beneficiary 1 place 1
+government.vote.n/a voter 1 candidate 1 ballot 1 result 1 place 1
+government.vote.castvote voter 1 candidate 1 ballot 1 result 1 place 1
+government.vote.violationspreventvote preventer 1 voter 1 candidate 1 ballot 1 place 1
+inspection.sensoryobserve.n/a observer 1 observedentity 1 place 1
+inspection.sensoryobserve.inspectpeopleorganization inspector 1 inspectedentity 1 place 1
+inspection.sensoryobserve.monitorelection monitor 1 monitoredentity 1 place 1
+inspection.sensoryobserve.physicalinvestigateinspect inspector 1 inspectedentity 1 place 1
+justice.arrestjaildetain.arrestjaildetain jailer 1 detainee 1 crime 1 place 1
+justice.initiatejudicialprocess.n/a prosecutor 1 defendant 1 judgecourt 1 crime 1 place 1
+justice.initiatejudicialprocess.chargeindict prosecutor 1 defendant 1 judgecourt 1 crime 1 place 1
+justice.initiatejudicialprocess.trialhearing prosecutor 1 defendant 1 judgecourt 1 crime 1 place 1
+justice.investigate.n/a investigator 1 defendant 1 place 1
+justice.investigate.investigatecrime investigator 1 defendant 1 crime 1 place 1
+justice.judicialconsequences.n/a judgecourt 1 defendant 1 crime 1 place 1
+justice.judicialconsequences.convict judgecourt 1 defendant 1 crime 1 place 1
+justice.judicialconsequences.execute executioner 1 defendant 1 crime 1 place 1
+justice.judicialconsequences.extradite extraditer 1 defendant 1 crime 1 origin 1 destination 1
+life.die.n/a victim 1 place 1
+life.die.deathcausedbyviolentevents killer 1 victim 1 instrument 1 place 1
+life.die.nonviolentdeath victim 1 place 1
+life.injure.n/a victim 1 injurer 1 place 1
+life.injure.illnessdegradationhungerthirst victim 1 place 1
+life.injure.illnessdegradationphysical victim 1
+life.injure.injurycausedbyviolentevents injurer 1 victim 1 instrument 1 place 1
+manufacture.artifact.n/a manufacturer 1 artifact 1 instrument 1 place 1
+manufacture.artifact.build manufacturer 1 artifact 1 instrument 1 place 1
+manufacture.artifact.createintellectualproperty manufacturer 1 artifact 1 instrument 1 place 1
+manufacture.artifact.createmanufacture manufacturer 1 artifact 1 instrument 1 place 1
+movement.transportartifact.n/a transporter 1 artifact 1 vehicle 1 origin 1 destination 1
+movement.transportartifact.bringcarryunload transporter 1 artifact 1 vehicle 1 origin 1 destination 1
+movement.transportartifact.disperseseparate transporter 1 artifact 1 vehicle 1 origin 1 destination 1
+movement.transportartifact.fall artifact 1 origin 1 destination 1
+movement.transportartifact.grantentry transporter 1 artifact 1 origin 1 destination 1
+movement.transportartifact.hide transporter 1 artifact 1 hidingplace 1 vehicle 1 origin 1
+movement.transportartifact.nonviolentthrowlaunch transporter 1 artifact 1 vehicle 1 origin 1 destination 1
+movement.transportartifact.prevententry preventer 1 transporter 1 artifact 1 origin 1 destination 1
+movement.transportartifact.preventexit preventer 1 transporter 1 artifact 1 origin 1 destination 1
+movement.transportartifact.receiveimport transporter 1 artifact 1 vehicle 1 origin 1 destination 1
+movement.transportartifact.sendsupplyexport transporter 1 artifact 1 vehicle 1 origin 1 destination 1
+movement.transportartifact.smuggleextract transporter 1 artifact 1 vehicle 1 origin 1 destination 1
+movement.transportperson.n/a transporter 1 passenger 1 vehicle 1 origin 1 destination 1
+movement.transportperson.bringcarryunload transporter 1 passenger 1 vehicle 1 origin 1 destination 1
+movement.transportperson.disperseseparate transporter 1 passenger 1 vehicle 1 origin 1 destination 1
+movement.transportperson.evacuationrescue transporter 1 passenger 1 vehicle 1 origin 1 destination 1
+movement.transportperson.fall passenger 1 origin 1 destination 1
+movement.transportperson.grantentryasylum granter 1 transporter 1 passenger 1 origin 1 destination 1
+movement.transportperson.hide transporter 1 passenger 1 hidingplace 1 vehicle 1 origin 1
+movement.transportperson.prevententry preventer 1 transporter 1 passenger 1 origin 1 destination 1
+movement.transportperson.preventexit preventer 1 transporter 1 passenger 1 origin 1 destination 1
+movement.transportperson.selfmotion transporter 1 vehicle 1 origin 1 destination 1
+movement.transportperson.smuggleextract transporter 1 passenger 1 vehicle 1 origin 1 destination 1
+personnel.elect.n/a voter 1 candidate 1 place 1
+personnel.elect.winelection voter 1 candidate 1 place 1
+personnel.endposition.n/a employee 1 placeofemployment 1 place 1
+personnel.endposition.firinglayoff employee 1 placeofemployment 1 place 1
+personnel.endposition.quitretire employee 1 placeofemployment 1 place 1
+personnel.startposition.n/a employee 1 placeofemployment 1 place 1
+personnel.startposition.hiring employee 1 placeofemployment 1 place 1
+transaction.transaction.n/a participant 2 beneficiary 1 place 1
+transaction.transaction.embargosanction preventer 1 giver 1 recipient 1 artifactmoney 1 place 1
+transaction.transaction.giftgrantprovideaid giver 1 recipient 1 beneficiary 1 place 1
+transaction.transfermoney.n/a giver 1 recipient 1 beneficiary 1 money 1 place 1
+transaction.transfermoney.borrowlend giver 1 recipient 1 beneficiary 1 money 1 place 1
+transaction.transfermoney.embargosanction preventer 1 giver 1 recipient 1 money 1 place 1
+transaction.transfermoney.giftgrantprovideaid giver 1 recipient 1 beneficiary 1 money 1 place 1
+transaction.transfermoney.payforservice giver 1 recipient 1 beneficiary 1 money 1 place 1
+transaction.transfermoney.purchase giver 1 recipient 1 beneficiary 1 money 1 place 1
+transaction.transferownership.n/a giver 1 recipient 1 beneficiary 1 artifact 1 place 1
+transaction.transferownership.borrowlend giver 1 recipient 1 beneficiary 1 artifact 1 place 1
+transaction.transferownership.embargosanction preventer 1 giver 1 recipient 1 artifact 1 place 1
+transaction.transferownership.giftgrantprovideaid giver 1 recipient 1 beneficiary 1 artifact 1 place 1
+transaction.transferownership.purchase giver 1 recipient 1 beneficiary 1 artifact 1 place 1
+transaction.transaction.transfercontrol giver 1 recipient 1 beneficiary 1 territoryorfacility 1 place 1

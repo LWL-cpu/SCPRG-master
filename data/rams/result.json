@@ -1,0 +1,940 @@
+{
+    "artifactexistence.damagedestroy.damage": {
+        "evt002arg01damager": 55,
+        "evt002arg02artifact": 64,
+        "evt002arg03instrument": 25,
+        "evt002arg04place": 38,
+        "total": 182
+    },
+    "artifactexistence.damagedestroy.destroy": {
+        "evt003arg01destroyer": 45,
+        "evt003arg02artifact": 53,
+        "evt003arg03instrument": 19,
+        "evt003arg04place": 33,
+        "total": 150
+    },
+    "artifactexistence.damagedestroy.n/a": {
+        "evt001arg01damagerdestroyer": 50,
+        "evt001arg02artifact": 65,
+        "evt001arg03instrument": 23,
+        "evt001arg04place": 41,
+        "total": 179
+    },
+    "conflict.attack.airstrikemissilestrike": {
+        "evt005arg01attacker": 31,
+        "evt005arg02target": 38,
+        "evt005arg03instrument": 24,
+        "evt005arg04place": 29,
+        "total": 122
+    },
+    "conflict.attack.biologicalchemicalpoisonattack": {
+        "evt006arg01attacker": 8,
+        "evt006arg02target": 9,
+        "evt006arg03instrument": 8,
+        "evt006arg04place": 3,
+        "total": 28
+    },
+    "conflict.attack.bombing": {
+        "evt007arg01attacker": 63,
+        "evt007arg02target": 61,
+        "evt007arg03instrument": 53,
+        "evt007arg04place": 61,
+        "total": 238
+    },
+    "conflict.attack.firearmattack": {
+        "evt008arg01attacker": 13,
+        "evt008arg02target": 20,
+        "evt008arg03instrument": 6,
+        "evt008arg04place": 21,
+        "total": 60
+    },
+    "conflict.attack.hanging": {
+        "evt009arg01attacker": 6,
+        "evt009arg02target": 10,
+        "evt009arg03instrument": 2,
+        "evt009arg04place": 6,
+        "total": 24
+    },
+    "conflict.attack.invade": {
+        "evt010arg01attacker": 32,
+        "evt010arg02target": 34,
+        "evt010arg03instrument": 5,
+        "evt010arg04place": 24,
+        "total": 95
+    },
+    "conflict.attack.n/a": {
+        "evt004arg01attacker": 190,
+        "evt004arg02target": 193,
+        "evt004arg03instrument": 117,
+        "evt004arg04place": 147,
+        "total": 647
+    },
+    "conflict.attack.selfdirectedbattle": {
+        "evt011arg01attacker": 178,
+        "evt011arg02target": 191,
+        "evt011arg03instrument": 86,
+        "evt011arg04place": 157,
+        "total": 612
+    },
+    "conflict.attack.setfire": {
+        "evt012arg01attacker": 7,
+        "evt012arg02target": 13,
+        "evt012arg03instrument": 5,
+        "evt012arg04place": 15,
+        "total": 40
+    },
+    "conflict.attack.stabbing": {
+        "evt013arg01attacker": 34,
+        "evt013arg02target": 40,
+        "evt013arg03instrument": 10,
+        "evt013arg04place": 36,
+        "total": 120
+    },
+    "conflict.attack.stealrobhijack": {
+        "evt014arg01attacker": 40,
+        "evt014arg02target": 51,
+        "evt014arg03instrument": 21,
+        "evt014arg04place": 40,
+        "evt014arg05artifact": 24,
+        "total": 176
+    },
+    "conflict.attack.strangling": {
+        "evt015arg01attacker": 5,
+        "evt015arg02target": 5,
+        "evt015arg03instrument": 1,
+        "evt015arg04place": 1,
+        "total": 12
+    },
+    "conflict.demonstrate.marchprotestpoliticalgathering": {
+        "evt017arg01demonstrator": 20,
+        "evt017arg02place": 20,
+        "total": 40
+    },
+    "conflict.demonstrate.n/a": {
+        "evt016arg01demonstrator": 14,
+        "evt016arg02place": 11,
+        "total": 25
+    },
+    "conflict.yield.n/a": {
+        "evt018arg01yielder": 24,
+        "evt018arg02recipient": 15,
+        "evt018arg03place": 12,
+        "total": 51
+    },
+    "conflict.yield.retreat": {
+        "evt019arg01retreater": 14,
+        "evt019arg02origin": 9,
+        "evt019arg03destination": 3,
+        "total": 26
+    },
+    "conflict.yield.surrender": {
+        "evt020arg01surrenderer": 16,
+        "evt020arg02recipient": 11,
+        "evt020arg03place": 12,
+        "total": 39
+    },
+    "contact.collaborate.correspondence": {
+        "evt022arg01participant": 45,
+        "evt022arg02participant": 29,
+        "evt022arg03place": 13,
+        "total": 87
+    },
+    "contact.collaborate.meet": {
+        "evt023arg01participant": 25,
+        "evt023arg02participant": 24,
+        "evt023arg03place": 19,
+        "total": 68
+    },
+    "contact.collaborate.n/a": {
+        "evt021arg01participant": 27,
+        "evt021arg02participant": 11,
+        "evt021arg03place": 10,
+        "total": 48
+    },
+    "contact.commandorder.broadcast": {
+        "evt025arg01communicator": 33,
+        "evt025arg02recipient": 30,
+        "evt025arg03place": 12,
+        "total": 75
+    },
+    "contact.commandorder.correspondence": {
+        "evt026arg01communicator": 23,
+        "evt026arg02recipient": 21,
+        "evt026arg03place": 6,
+        "total": 50
+    },
+    "contact.commandorder.meet": {
+        "evt027arg01communicator": 19,
+        "evt027arg02recipient": 18,
+        "evt027arg03place": 7,
+        "total": 44
+    },
+    "contact.commandorder.n/a": {
+        "evt024arg01communicator": 27,
+        "evt024arg02recipient": 28,
+        "evt024arg03place": 8,
+        "total": 63
+    },
+    "contact.commitmentpromiseexpressintent.broadcast": {
+        "evt029arg01communicator": 62,
+        "evt029arg02recipient": 42,
+        "evt029arg03place": 20,
+        "total": 124
+    },
+    "contact.commitmentpromiseexpressintent.correspondence": {
+        "evt030arg01communicator": 46,
+        "evt030arg02recipient": 25,
+        "evt030arg03place": 14,
+        "total": 85
+    },
+    "contact.commitmentpromiseexpressintent.meet": {
+        "evt031arg01communicator": 73,
+        "evt031arg02recipient": 47,
+        "evt031arg03place": 22,
+        "total": 142
+    },
+    "contact.commitmentpromiseexpressintent.n/a": {
+        "evt028arg01communicator": 29,
+        "evt028arg02recipient": 30,
+        "evt028arg03place": 5,
+        "total": 64
+    },
+    "contact.discussion.correspondence": {
+        "evt033arg01participant": 66,
+        "evt033arg02participant": 57,
+        "evt033arg03place": 20,
+        "total": 143
+    },
+    "contact.discussion.meet": {
+        "evt034arg01participant": 118,
+        "evt034arg02participant": 98,
+        "evt034arg03place": 37,
+        "total": 253
+    },
+    "contact.discussion.n/a": {
+        "evt032arg01participant": 64,
+        "evt032arg02participant": 47,
+        "evt032arg03place": 21,
+        "total": 132
+    },
+    "contact.funeralvigil.meet": {
+        "evt036arg01participant": 21,
+        "evt036arg02participant": 13,
+        "evt036arg03deceased": 25,
+        "evt036arg04place": 18,
+        "total": 77
+    },
+    "contact.funeralvigil.n/a": {
+        "evt035arg01participant": 9,
+        "evt035arg02participant": 5,
+        "evt035arg03deceased": 13,
+        "evt035arg04place": 10,
+        "total": 37
+    },
+    "contact.mediastatement.broadcast": {
+        "evt038arg01communicator": 30,
+        "evt038arg02recipient": 16,
+        "evt038arg03place": 18,
+        "total": 64
+    },
+    "contact.mediastatement.n/a": {
+        "evt037arg01communicator": 21,
+        "evt037arg02recipient": 17,
+        "evt037arg03place": 5,
+        "total": 43
+    },
+    "contact.negotiate.correspondence": {
+        "evt040arg01participant": 19,
+        "evt040arg02participant": 16,
+        "evt040arg03place": 7,
+        "total": 42
+    },
+    "contact.negotiate.meet": {
+        "evt041arg01participant": 37,
+        "evt041arg02participant": 23,
+        "evt041arg03place": 12,
+        "total": 72
+    },
+    "contact.negotiate.n/a": {
+        "evt039arg01participant": 12,
+        "evt039arg02participant": 10,
+        "evt039arg03place": 1,
+        "total": 23
+    },
+    "contact.prevarication.broadcast": {
+        "evt043arg01communicator": 41,
+        "evt043arg02recipient": 28,
+        "evt043arg03place": 7,
+        "total": 76
+    },
+    "contact.prevarication.correspondence": {
+        "evt044arg01communicator": 32,
+        "evt044arg02recipient": 18,
+        "evt044arg03place": 6,
+        "total": 56
+    },
+    "contact.prevarication.meet": {
+        "evt045arg01communicator": 30,
+        "evt045arg02recipient": 20,
+        "evt045arg03place": 4,
+        "total": 54
+    },
+    "contact.prevarication.n/a": {
+        "evt042arg01communicator": 27,
+        "evt042arg02recipient": 18,
+        "evt042arg03place": 5,
+        "total": 50
+    },
+    "contact.publicstatementinperson.broadcast": {
+        "evt047arg01communicator": 63,
+        "evt047arg02recipient": 33,
+        "evt047arg03place": 17,
+        "total": 113
+    },
+    "contact.publicstatementinperson.n/a": {
+        "evt046arg01communicator": 44,
+        "evt046arg02recipient": 35,
+        "evt046arg03place": 5,
+        "total": 84
+    },
+    "contact.requestadvise.broadcast": {
+        "evt049arg01communicator": 71,
+        "evt049arg02recipient": 50,
+        "evt049arg03place": 14,
+        "total": 135
+    },
+    "contact.requestadvise.correspondence": {
+        "evt050arg01communicator": 66,
+        "evt050arg02recipient": 47,
+        "evt050arg03place": 17,
+        "total": 130
+    },
+    "contact.requestadvise.meet": {
+        "evt051arg01communicator": 54,
+        "evt051arg02recipient": 41,
+        "evt051arg03place": 16,
+        "total": 111
+    },
+    "contact.requestadvise.n/a": {
+        "evt048arg01communicator": 58,
+        "evt048arg02recipient": 55,
+        "evt048arg03place": 9,
+        "total": 122
+    },
+    "contact.threatencoerce.broadcast": {
+        "evt053arg01communicator": 32,
+        "evt053arg02recipient": 33,
+        "evt053arg03place": 9,
+        "total": 74
+    },
+    "contact.threatencoerce.correspondence": {
+        "evt054arg01communicator": 31,
+        "evt054arg02recipient": 30,
+        "evt054arg03place": 12,
+        "total": 73
+    },
+    "contact.threatencoerce.meet": {
+        "evt055arg01communicator": 36,
+        "evt055arg02recipient": 38,
+        "evt055arg03place": 18,
+        "total": 92
+    },
+    "contact.threatencoerce.n/a": {
+        "evt052arg01communicator": 23,
+        "evt052arg02recipient": 30,
+        "evt052arg03place": 6,
+        "total": 59
+    },
+    "disaster.accidentcrash.accidentcrash": {
+        "evt057arg01driverpassenger": 17,
+        "evt057arg02vehicle": 32,
+        "evt057arg03crashobject": 22,
+        "evt057arg04place": 27,
+        "total": 98
+    },
+    "disaster.fireexplosion.fireexplosion": {
+        "evt059arg01fireexplosionobject": 45,
+        "evt059arg02instrument": 28,
+        "evt059arg03place": 48,
+        "total": 121
+    },
+    "government.agreements.acceptagreementcontractceasefire": {
+        "evt061arg01participant": 57,
+        "evt061arg02participant": 50,
+        "evt061arg03place": 24,
+        "total": 131
+    },
+    "government.agreements.n/a": {
+        "evt060arg01participant": 31,
+        "evt060arg02participant": 26,
+        "evt060arg03place": 9,
+        "total": 66
+    },
+    "government.agreements.rejectnullifyagreementcontractceasefire": {
+        "evt062arg01rejecternullifier": 27,
+        "evt062arg02otherparticipant": 22,
+        "evt062arg03place": 13,
+        "total": 62
+    },
+    "government.agreements.violateagreement": {
+        "evt063arg01violator": 43,
+        "evt063arg02otherparticipant": 37,
+        "evt063arg03place": 25,
+        "total": 105
+    },
+    "government.formation.mergegpe": {
+        "evt065arg01participant": 17,
+        "evt065arg02participant": 15,
+        "evt065arg03place": 11,
+        "total": 43
+    },
+    "government.formation.n/a": {
+        "evt064arg01gpe": 12,
+        "evt064arg02founder": 12,
+        "evt064arg03place": 6,
+        "total": 30
+    },
+    "government.formation.startgpe": {
+        "evt066arg01gpe": 12,
+        "evt066arg02founder": 9,
+        "evt066arg03place": 7,
+        "total": 28
+    },
+    "government.legislate.legislate": {
+        "evt068arg01governmentbody": 61,
+        "evt068arg02law": 59,
+        "evt068arg03place": 30,
+        "total": 150
+    },
+    "government.spy.spy": {
+        "evt070arg01spy": 29,
+        "evt070arg02observedentity": 25,
+        "evt070arg03beneficiary": 24,
+        "evt070arg04place": 13,
+        "total": 91
+    },
+    "government.vote.castvote": {
+        "evt072arg01voter": 20,
+        "evt072arg02candidate": 15,
+        "evt072arg03ballot": 11,
+        "evt072arg04result": 8,
+        "evt072arg05place": 14,
+        "total": 68
+    },
+    "government.vote.n/a": {
+        "evt071arg01voter": 1,
+        "evt071arg02candidate": 8,
+        "evt071arg03ballot": 2,
+        "evt071arg05place": 1,
+        "total": 12
+    },
+    "government.vote.violationspreventvote": {
+        "evt073arg01preventer": 15,
+        "evt073arg02voter": 10,
+        "evt073arg03candidate": 5,
+        "evt073arg04ballot": 3,
+        "evt073arg05place": 11,
+        "total": 44
+    },
+    "inspection.sensoryobserve.inspectpeopleorganization": {
+        "evt075arg01inspector": 27,
+        "evt075arg02inspectedentity": 27,
+        "evt075arg03place": 24,
+        "total": 78
+    },
+    "inspection.sensoryobserve.monitorelection": {
+        "evt076arg01monitor": 12,
+        "evt076arg02monitoredentity": 13,
+        "evt076arg03place": 9,
+        "total": 34
+    },
+    "inspection.sensoryobserve.n/a": {
+        "evt074arg01observer": 27,
+        "evt074arg02observedentity": 35,
+        "evt074arg03place": 22,
+        "total": 84
+    },
+    "inspection.sensoryobserve.physicalinvestigateinspect": {
+        "evt077arg01inspector": 34,
+        "evt077arg02inspectedentity": 42,
+        "evt077arg03place": 34,
+        "total": 110
+    },
+    "justice.arrestjaildetain.arrestjaildetain": {
+        "evt079arg01jailer": 90,
+        "evt079arg02detainee": 125,
+        "evt079arg03crime": 64,
+        "evt079arg04place": 68,
+        "total": 347
+    },
+    "justice.initiatejudicialprocess.chargeindict": {
+        "evt081arg01prosecutor": 38,
+        "evt081arg02defendant": 54,
+        "evt081arg03judgecourt": 8,
+        "evt081arg04crime": 46,
+        "evt081arg05place": 20,
+        "total": 166
+    },
+    "justice.initiatejudicialprocess.n/a": {
+        "evt080arg01prosecutor": 36,
+        "evt080arg02defendant": 49,
+        "evt080arg03judgecourt": 8,
+        "evt080arg04crime": 39,
+        "evt080arg05place": 17,
+        "total": 149
+    },
+    "justice.initiatejudicialprocess.trialhearing": {
+        "evt082arg01prosecutor": 24,
+        "evt082arg02defendant": 46,
+        "evt082arg03judgecourt": 25,
+        "evt082arg04crime": 28,
+        "evt082arg05place": 23,
+        "total": 146
+    },
+    "justice.investigate.investigatecrime": {
+        "evt084arg01investigator": 37,
+        "evt084arg02defendant": 35,
+        "evt084arg03crime": 28,
+        "evt084arg04place": 19,
+        "total": 119
+    },
+    "justice.investigate.n/a": {
+        "evt083arg01investigator": 25,
+        "evt083arg02defendant": 23,
+        "evt083arg03place": 10,
+        "total": 58
+    },
+    "justice.judicialconsequences.convict": {
+        "evt086arg01judgecourt": 16,
+        "evt086arg02defendant": 40,
+        "evt086arg03crime": 38,
+        "evt086arg04place": 26,
+        "total": 120
+    },
+    "justice.judicialconsequences.execute": {
+        "evt087arg01executioner": 32,
+        "evt087arg02defendant": 34,
+        "evt087arg03crime": 13,
+        "evt087arg04place": 33,
+        "total": 112
+    },
+    "justice.judicialconsequences.extradite": {
+        "evt088arg01extraditer": 39,
+        "evt088arg02defendant": 48,
+        "evt088arg03crime": 33,
+        "evt088arg04origin": 24,
+        "evt088arg05destination": 40,
+        "total": 184
+    },
+    "justice.judicialconsequences.n/a": {
+        "evt085arg01judgecourt": 40,
+        "evt085arg02defendant": 51,
+        "evt085arg03crime": 41,
+        "evt085arg04place": 31,
+        "total": 163
+    },
+    "life.die.deathcausedbyviolentevents": {
+        "evt090arg01killer": 175,
+        "evt090arg02victim": 218,
+        "evt090arg03instrument": 61,
+        "evt090arg04place": 164,
+        "total": 618
+    },
+    "life.die.n/a": {
+        "evt089arg01victim": 153,
+        "evt089arg02place": 92,
+        "total": 245
+    },
+    "life.die.nonviolentdeath": {
+        "evt091arg01victim": 44,
+        "evt091arg02place": 18,
+        "total": 62
+    },
+    "life.injure.illnessdegradationhungerthirst": {
+        "evt093arg01victim": 48,
+        "evt093arg02place": 36,
+        "total": 84
+    },
+    "life.injure.illnessdegradationphysical": {
+        "evt094arg01victim": 53,
+        "total": 53
+    },
+    "life.injure.injurycausedbyviolentevents": {
+        "evt095arg01injurer": 144,
+        "evt095arg02victim": 178,
+        "evt095arg03instrument": 85,
+        "evt095arg04place": 139,
+        "total": 546
+    },
+    "life.injure.n/a": {
+        "evt092arg01victim": 119,
+        "evt092arg02injurer": 105,
+        "evt092arg03place": 73,
+        "total": 297
+    },
+    "manufacture.artifact.build": {
+        "evt097arg01manufacturer": 29,
+        "evt097arg02artifact": 29,
+        "evt097arg03instrument": 7,
+        "evt097arg04place": 24,
+        "total": 89
+    },
+    "manufacture.artifact.createintellectualproperty": {
+        "evt098arg01manufacturer": 14,
+        "evt098arg02artifact": 15,
+        "evt098arg03instrument": 3,
+        "evt098arg04place": 6,
+        "total": 38
+    },
+    "manufacture.artifact.createmanufacture": {
+        "evt099arg01manufacturer": 14,
+        "evt099arg02artifact": 15,
+        "evt099arg03instrument": 2,
+        "evt099arg04place": 6,
+        "total": 37
+    },
+    "manufacture.artifact.n/a": {
+        "evt096arg01manufacturer": 28,
+        "evt096arg02artifact": 38,
+        "evt096arg03instrument": 3,
+        "evt096arg04place": 10,
+        "total": 79
+    },
+    "movement.transportartifact.bringcarryunload": {
+        "evt101arg01transporter": 25,
+        "evt101arg02artifact": 30,
+        "evt101arg03vehicle": 11,
+        "evt101arg04origin": 19,
+        "evt101arg05destination": 26,
+        "total": 111
+    },
+    "movement.transportartifact.disperseseparate": {
+        "evt102arg01transporter": 24,
+        "evt102arg02artifact": 28,
+        "evt102arg03vehicle": 8,
+        "evt102arg04origin": 17,
+        "evt102arg05destination": 27,
+        "total": 104
+    },
+    "movement.transportartifact.fall": {
+        "evt103arg01artifact": 9,
+        "evt103arg02origin": 5,
+        "evt103arg03destination": 7,
+        "total": 21
+    },
+    "movement.transportartifact.grantentry": {
+        "evt104arg01transporter": 20,
+        "evt104arg02artifact": 19,
+        "evt104arg03origin": 9,
+        "evt104arg04destination": 15,
+        "total": 63
+    },
+    "movement.transportartifact.hide": {
+        "evt105arg01transporter": 27,
+        "evt105arg02artifact": 29,
+        "evt105arg03hidingplace": 8,
+        "evt105arg04vehicle": 6,
+        "evt105arg05origin": 16,
+        "total": 86
+    },
+    "movement.transportartifact.n/a": {
+        "evt100arg01transporter": 64,
+        "evt100arg02artifact": 95,
+        "evt100arg03vehicle": 7,
+        "evt100arg04origin": 38,
+        "evt100arg05destination": 41,
+        "total": 245
+    },
+    "movement.transportartifact.nonviolentthrowlaunch": {
+        "evt106arg01transporter": 15,
+        "evt106arg02artifact": 16,
+        "evt106arg03vehicle": 1,
+        "evt106arg04origin": 2,
+        "evt106arg05destination": 11,
+        "total": 45
+    },
+    "movement.transportartifact.prevententry": {
+        "evt107arg01preventer": 24,
+        "evt107arg02transporter": 21,
+        "evt107arg03artifact": 13,
+        "evt107arg04origin": 9,
+        "evt107arg05destination": 15,
+        "total": 82
+    },
+    "movement.transportartifact.preventexit": {
+        "evt108arg01preventer": 42,
+        "evt108arg02transporter": 33,
+        "evt108arg03artifact": 24,
+        "evt108arg04origin": 17,
+        "evt108arg05destination": 9,
+        "total": 125
+    },
+    "movement.transportartifact.receiveimport": {
+        "evt109arg01transporter": 16,
+        "evt109arg02artifact": 15,
+        "evt109arg03vehicle": 1,
+        "evt109arg04origin": 10,
+        "evt109arg05destination": 13,
+        "total": 55
+    },
+    "movement.transportartifact.sendsupplyexport": {
+        "evt110arg01transporter": 21,
+        "evt110arg02artifact": 22,
+        "evt110arg03vehicle": 7,
+        "evt110arg04origin": 14,
+        "evt110arg05destination": 18,
+        "total": 82
+    },
+    "movement.transportartifact.smuggleextract": {
+        "evt111arg01transporter": 28,
+        "evt111arg02artifact": 34,
+        "evt111arg03vehicle": 2,
+        "evt111arg04origin": 17,
+        "evt111arg05destination": 18,
+        "total": 99
+    },
+    "movement.transportperson.bringcarryunload": {
+        "evt113arg01transporter": 8,
+        "evt113arg02passenger": 4,
+        "evt113arg03vehicle": 6,
+        "evt113arg04origin": 5,
+        "evt113arg05destination": 7,
+        "total": 30
+    },
+    "movement.transportperson.disperseseparate": {
+        "evt114arg01transporter": 14,
+        "evt114arg02passenger": 9,
+        "evt114arg03vehicle": 4,
+        "evt114arg04origin": 10,
+        "evt114arg05destination": 19,
+        "total": 56
+    },
+    "movement.transportperson.evacuationrescue": {
+        "evt115arg01transporter": 42,
+        "evt115arg02passenger": 60,
+        "evt115arg03vehicle": 2,
+        "evt115arg04origin": 54,
+        "evt115arg05destination": 20,
+        "total": 178
+    },
+    "movement.transportperson.fall": {
+        "evt116arg01passenger": 11,
+        "evt116arg02origin": 2,
+        "evt116arg03destination": 5,
+        "total": 18
+    },
+    "movement.transportperson.grantentryasylum": {
+        "evt117arg01granter": 26,
+        "evt117arg02transporter": 23,
+        "evt117arg03passenger": 18,
+        "evt117arg04origin": 23,
+        "evt117arg05destination": 28,
+        "total": 118
+    },
+    "movement.transportperson.hide": {
+        "evt118arg01transporter": 16,
+        "evt118arg02passenger": 16,
+        "evt118arg03hidingplace": 6,
+        "evt118arg04vehicle": 2,
+        "evt118arg05origin": 10,
+        "total": 50
+    },
+    "movement.transportperson.n/a": {
+        "evt112arg01transporter": 39,
+        "evt112arg02passenger": 89,
+        "evt112arg03vehicle": 5,
+        "evt112arg04origin": 65,
+        "evt112arg05destination": 51,
+        "total": 249
+    },
+    "movement.transportperson.prevententry": {
+        "evt119arg01preventer": 32,
+        "evt119arg02transporter": 17,
+        "evt119arg03passenger": 23,
+        "evt119arg04origin": 12,
+        "evt119arg05destination": 22,
+        "total": 106
+    },
+    "movement.transportperson.preventexit": {
+        "evt120arg01preventer": 105,
+        "evt120arg02transporter": 55,
+        "evt120arg03passenger": 84,
+        "evt120arg04origin": 57,
+        "evt120arg05destination": 24,
+        "total": 325
+    },
+    "movement.transportperson.selfmotion": {
+        "evt121arg01transporter": 34,
+        "evt121arg03origin": 17,
+        "evt121arg04destination": 20,
+        "total": 71
+    },
+    "movement.transportperson.smuggleextract": {
+        "evt122arg01transporter": 19,
+        "evt122arg02passenger": 26,
+        "evt122arg03vehicle": 1,
+        "evt122arg04origin": 15,
+        "evt122arg05destination": 14,
+        "total": 75
+    },
+    "personnel.elect.n/a": {
+        "evt123arg01voter": 8,
+        "evt123arg02candidate": 15,
+        "evt123arg03place": 5,
+        "total": 28
+    },
+    "personnel.elect.winelection": {
+        "evt124arg01voter": 12,
+        "evt124arg02candidate": 41,
+        "evt124arg03place": 18,
+        "total": 71
+    },
+    "personnel.endposition.firinglayoff": {
+        "evt126arg01employee": 45,
+        "evt126arg02placeofemployment": 35,
+        "evt126arg03place": 27,
+        "total": 107
+    },
+    "personnel.endposition.n/a": {
+        "evt125arg01employee": 56,
+        "evt125arg02placeofemployment": 45,
+        "evt125arg03place": 18,
+        "total": 119
+    },
+    "personnel.endposition.quitretire": {
+        "evt127arg01employee": 61,
+        "evt127arg02placeofemployment": 48,
+        "evt127arg03place": 16,
+        "total": 125
+    },
+    "personnel.startposition.hiring": {
+        "evt129arg01employee": 65,
+        "evt129arg02placeofemployment": 59,
+        "evt129arg03place": 19,
+        "total": 143
+    },
+    "personnel.startposition.n/a": {
+        "evt128arg01employee": 22,
+        "evt128arg02placeofemployment": 31,
+        "evt128arg03place": 10,
+        "total": 63
+    },
+    "transaction.transaction.embargosanction": {
+        "evt131arg01preventer": 59,
+        "evt131arg02giver": 49,
+        "evt131arg03recipient": 42,
+        "evt131arg04artifactmoney": 36,
+        "evt131arg05place": 43,
+        "total": 229
+    },
+    "transaction.transaction.giftgrantprovideaid": {
+        "evt132arg01giver": 44,
+        "evt132arg02recipient": 45,
+        "evt132arg03beneficiary": 31,
+        "evt132arg04place": 14,
+        "total": 134
+    },
+    "transaction.transaction.n/a": {
+        "evt130arg01participant": 43,
+        "evt130arg02participant": 32,
+        "evt130arg03beneficiary": 28,
+        "evt130arg04place": 13,
+        "total": 116
+    },
+    "transaction.transaction.transfercontrol": {
+        "evt144arg01giver": 53,
+        "evt144arg02recipient": 52,
+        "evt144arg03beneficiary": 41,
+        "evt144arg04territoryorfacility": 25,
+        "evt144arg05place": 39,
+        "total": 210
+    },
+    "transaction.transfermoney.borrowlend": {
+        "evt134arg01giver": 44,
+        "evt134arg02recipient": 43,
+        "evt134arg03beneficiary": 42,
+        "evt134arg04money": 25,
+        "evt134arg05place": 16,
+        "total": 170
+    },
+    "transaction.transfermoney.embargosanction": {
+        "evt135arg01preventer": 43,
+        "evt135arg02giver": 37,
+        "evt135arg03recipient": 21,
+        "evt135arg04money": 27,
+        "evt135arg05place": 29,
+        "total": 157
+    },
+    "transaction.transfermoney.giftgrantprovideaid": {
+        "evt136arg01giver": 55,
+        "evt136arg02recipient": 37,
+        "evt136arg03beneficiary": 53,
+        "evt136arg04money": 10,
+        "evt136arg05place": 21,
+        "total": 176
+    },
+    "transaction.transfermoney.n/a": {
+        "evt133arg01giver": 112,
+        "evt133arg02recipient": 114,
+        "evt133arg03beneficiary": 74,
+        "evt133arg04money": 40,
+        "evt133arg05place": 27,
+        "total": 367
+    },
+    "transaction.transfermoney.payforservice": {
+        "evt137arg01giver": 75,
+        "evt137arg02recipient": 74,
+        "evt137arg03beneficiary": 76,
+        "evt137arg04money": 28,
+        "evt137arg05place": 20,
+        "total": 273
+    },
+    "transaction.transfermoney.purchase": {
+        "evt138arg01giver": 56,
+        "evt138arg02recipient": 34,
+        "evt138arg03beneficiary": 52,
+        "evt138arg04money": 15,
+        "evt138arg05place": 25,
+        "total": 182
+    },
+    "transaction.transferownership.borrowlend": {
+        "evt140arg01giver": 40,
+        "evt140arg02recipient": 41,
+        "evt140arg03beneficiary": 40,
+        "evt140arg04artifact": 16,
+        "evt140arg05place": 17,
+        "total": 154
+    },
+    "transaction.transferownership.embargosanction": {
+        "evt141arg01preventer": 54,
+        "evt141arg02giver": 35,
+        "evt141arg03recipient": 34,
+        "evt141arg04artifact": 30,
+        "evt141arg05place": 41,
+        "total": 194
+    },
+    "transaction.transferownership.giftgrantprovideaid": {
+        "evt142arg01giver": 53,
+        "evt142arg02recipient": 41,
+        "evt142arg03beneficiary": 50,
+        "evt142arg04artifact": 16,
+        "evt142arg05place": 19,
+        "total": 179
+    },
+    "transaction.transferownership.n/a": {
+        "evt139arg01giver": 67,
+        "evt139arg02recipient": 79,
+        "evt139arg03beneficiary": 46,
+        "evt139arg04artifact": 84,
+        "evt139arg05place": 25,
+        "total": 301
+    },
+    "transaction.transferownership.purchase": {
+        "evt143arg01giver": 53,
+        "evt143arg02recipient": 56,
+        "evt143arg03beneficiary": 50,
+        "evt143arg04artifact": 50,
+        "evt143arg05place": 27,
+        "total": 236
+    }
+}
