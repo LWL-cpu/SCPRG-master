@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUTPUT_DIR=rams-base_seed1111
+OUTPUT_DIR=rams-base
 golden_dev=../data/rams/dev.jsonlines
 golden_test=../data/rams/test.jsonlines
 
