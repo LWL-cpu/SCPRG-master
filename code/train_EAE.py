@@ -742,6 +742,4 @@ def _mp_fn(index):
 if __name__ == "__main__":
     # wandb.init(project="event-extraction-tsar")
     os.environ["WANDB_DISABLED"] = "true"
-    torch.set_num_threads(1)
-
     main()
