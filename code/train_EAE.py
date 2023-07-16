@@ -740,6 +740,6 @@ def _mp_fn(index):
 
 
 if __name__ == "__main__":
-    # wandb.init(project="event-extraction-tsar")
-    os.environ["WANDB_DISABLED"] = "true"
+    # wandb.init(project="event-extraction-tsar")  
+    os.environ["WANDB_DISABLED"] = "true"  # Wandb cannot be used due to our internal servers. If you have any requirements, you can use Wandb.
     main()
