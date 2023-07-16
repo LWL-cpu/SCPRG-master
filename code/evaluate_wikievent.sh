@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUTPUT_DIR=wikievents-base_seed999
+OUTPUT_DIR=wikievents-base
 golden_dev=../data/wikievents/transfer-dev.jsonl
 golden_test=../data/wikievents/transfer-test.jsonl
 
