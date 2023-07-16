@@ -1,6 +1,3 @@
-
-******For latest update, please move to this [repo](https://github.com/LWL-cpu/SCPRG-master).
-
 # SCPRG
 
 Source code for Findings of ACL 2023 paper: [Enhancing Document-level Event Argument Extraction with Contextual Clues and Role Relevance](https://aclanthology.org/2023.findings-acl.817).
