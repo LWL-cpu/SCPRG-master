@@ -1,8 +1,8 @@
 ## ↳ Stargazers
-[![Stargazers repo roster for @LWL-cpu/SCPRG-master](https://github.com/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/stargazers)
+[![Stargazers repo roster for @LWL-cpu/SCPRG-master](https://reporoster.com/stars/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/stargazers)
 
 ## ↳ Forkers
-[![Forkers repo roster for @LWL-cpu/SCPRG-master](https://github.com/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/network/members)
+[![Forkers repo roster for @LWL-cpu/SCPRG-master](https://reporoster.com/forks/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/network/members)
 
 # SCPRG
 
