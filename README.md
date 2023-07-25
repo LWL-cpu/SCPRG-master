@@ -1,3 +1,9 @@
+## ↳ Stargazers
+[![Stargazers repo roster for LWL-cpu/SCPRG-master](https://github.com/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/stargazers)
+
+## ↳ Forkers
+[![Forkers repo roster for LWL-cpu/SCPRG-master](https://github.com/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/network/members)
+
 # SCPRG
 
 Source code for Findings of ACL 2023 paper: [Enhancing Document-level Event Argument Extraction with Contextual Clues and Role Relevance](https://aclanthology.org/2023.findings-acl.817).
