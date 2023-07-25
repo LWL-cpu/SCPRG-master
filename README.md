@@ -79,8 +79,4 @@ If you use this work or code, please kindly cite the following paper:
 }
 
 ```
-## ↳ Stargazers
-[![Stargazers repo roster for @LWL-cpu/SCPRG-master](https://reporoster.com/stars/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/stargazers)
 
-## ↳ Forkers
-[![Forkers repo roster for @LWL-cpu/SCPRG-master](https://reporoster.com/forks/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/network/members)
