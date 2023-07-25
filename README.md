@@ -1,12 +1,5 @@
-## ↳ Stargazers
-[![Stargazers repo roster for @LWL-cpu/SCPRG-master](https://reporoster.com/stars/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/stargazers)
-
-## ↳ Forkers
-[![Forkers repo roster for @LWL-cpu/SCPRG-master](https://reporoster.com/forks/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/network/members)
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-document-level-event-argument/event-argument-extraction-on-wikievents)](https://paperswithcode.com/sota/event-argument-extraction-on-wikievents?p=enhancing-document-level-event-argument)
 # SCPRG
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-document-level-event-argument/event-argument-extraction-on-wikievents)](https://paperswithcode.com/sota/event-argument-extraction-on-wikievents?p=enhancing-document-level-event-argument)
 Source code for Findings of ACL 2023 paper: [Enhancing Document-level Event Argument Extraction with Contextual Clues and Role Relevance](https://aclanthology.org/2023.findings-acl.817).
 
  Our code is based on TSAR (A Two-Stream AMR-enhanced Model for Document-level Event Argument Extraction) [here](https://github.com/RunxinXu/TSAR) and thanks for their implement.
@@ -84,3 +77,8 @@ If you use this work or code, please kindly cite the following paper:
 }
 
 ```
+## ↳ Stargazers
+[![Stargazers repo roster for @LWL-cpu/SCPRG-master](https://reporoster.com/stars/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/stargazers)
+
+## ↳ Forkers
+[![Forkers repo roster for @LWL-cpu/SCPRG-master](https://reporoster.com/forks/LWL-cpu/SCPRG-master)](https://github.com/LWL-cpu/SCPRG-master/network/members)
