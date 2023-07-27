@@ -231,7 +231,7 @@ def main():
     setattr(config, "event_num", event_num)
     # ======== make some additional setting ==============
 
-    if model_args.model_name_or_path.startswith('bert') or model_args.model_name_or_path.startswith('SpanBERT'):
+    if model_args.model_name_or_path.startswith('bert'):
         tokenizer = BertTokenizer.from_pretrained(
             model_args.tokenizer_name if model_args.tokenizer_name else model_args.model_name_or_path,
             cache_dir=model_args.cache_dir,
@@ -320,7 +320,7 @@ def main():
 
         exclude_words = []  # non-argument spans exclusion
         if data_args.task_name == 'wikievent':
-            exclude_symbols = [',', '!', '?', ':']
+            exclude_symbols = [',', '!', '?', ':']  # We select some normal symols that can not appear in the middle of a argument span. For different datasets, you can choose different symbols.
         else:
             exclude_symbols = [',', '.', '!', '?', ':']
         for i, sentence in enumerate(sentences):
@@ -347,7 +347,7 @@ def main():
             subwords_snt2span.append([subwords_snt2span_st, len(input_ids) -1])
 
         model_max_len = 1024
-        max_role_token_len = 30
+        max_role_token_len = 30  # We set the max length of role list 30
 
         spans = []
         span_lens = []
@@ -411,9 +411,6 @@ def main():
         role_idx.append(len(input_ids) - 1)  # 空类标签
         info_dict['role_idxs'] = role_idx
 
-        #input_ids.append(tokenizer.sep_token_id)
-        if len(input_ids) > 1023:
-            print("over!")
         trigger_index = wordidx2subwordidx[trigger_b][0]-1   #这里用special token 代表触发词
         trigger_index = min(trigger_index, len(input_ids)-1) # very few times it would be out of bound so we have to ...
 
@@ -446,7 +443,6 @@ def main():
         span_lens.extend([x[1] - x[0] for x in all_non_spans])
         span_labels.extend([0] * len(all_non_spans))
         span_num = len(spans)
-        assert len(spans) == len(subwords_span2snt)
 
         result = {
             'idx': idx,
