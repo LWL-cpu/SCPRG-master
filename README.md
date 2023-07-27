@@ -25,7 +25,7 @@ You can refer to our [paper](https://aclanthology.org/2023.findings-acl.817) for
 - tqdm==4.49.0
 - spacy==3.2.4
 - opt_einsum
-
+- wandb
 For the usage of spacy, the following command could be helpful.
 
 ```bash
