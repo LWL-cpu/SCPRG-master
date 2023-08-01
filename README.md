@@ -66,6 +66,7 @@ And you can evaluate the model by the following scripts.
 ```
 
 You can download our best model checkpoint. [here](https://drive.google.com/drive/folders/1hUovlrl5aRi8b84KhHS5DOg0tzT_1JyB?usp=sharing)
+If you have any questions, pls contact us via liuwanlong@std.uestc.edu.cn. Thanks!
 
 ## 🌝 Citation
 
