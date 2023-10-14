@@ -118,7 +118,7 @@ class MyBertmodel(BertPreTrainedModel):
         token_pos = token_pos + shift
         res = batch_rep.contiguous().view(-1, dim)[token_pos]
         return res
-    def context_pooling(self, value_matrix, trigger_att, hidden_rep):
+    def context_pooling(self, value_matrix, trigger_att, hidden_rep):   # 文章中RLIG 和STCP的核心实现函数，基于value_matrix和trigger的注意力头得到对上下文和角色信息的关注度
         bsz = value_matrix.shape[0]
         rss = []
         for i in range(bsz):
@@ -187,9 +187,10 @@ class MyBertmodel(BertPreTrainedModel):
         context_att = torch.bmm(context_mask, final_att)    # bsz * span_num * hidsize
 
         '''
-        这里加入局部上下文池化
+        这里为了简便我们将STCP和RLIG的context_pooling操作合在一起。 global_feature包括上下文信息和角色信息。经过我们实验，分开计算STCP、
+        RLIG和合并计算它们的效果差不多。
         '''
-        b_rs = self.context_pooling(b_att, trigger_att, start_feature)
+        b_rs = self.context_pooling(b_att, trigger_att, start_feature)  
         e_rs = self.context_pooling(e_att, trigger_att, end_feature)
         context_rs = self.context_pooling(context_att, trigger_att, global_feature)
 
@@ -317,7 +318,7 @@ class MyRobertamodel(RobertaPreTrainedModel):
         token_pos = token_pos + shift
         res = batch_rep.contiguous().view(-1, dim)[token_pos]
         return res
-    def context_pooling(self, value_matrix, trigger_att, hidden_rep):
+    def context_pooling(self, value_matrix, trigger_att, hidden_rep): # 文章中RLIG 和STCP的核心实现函数，基于value_matrix和trigger的注意力头得到对上下文和角色信息的关注度
         bsz = value_matrix.shape[0]
         rss = []
         for i in range(bsz):
@@ -385,7 +386,8 @@ class MyRobertamodel(RobertaPreTrainedModel):
         context_att = torch.bmm(context_mask, final_att)    # bsz * span_num * hidsize
 
         '''
-        这里加入局部上下文池化
+        这里为了简便我们将STCP和RLIG的context_pooling操作合在一起。 global_feature包括上下文信息和角色信息。经过我们实验，分开计算STCP、
+        RLIG和合并计算它们的效果差不多。
         '''
         b_rs = self.context_pooling(b_att, trigger_att, start_feature)
         e_rs = self.context_pooling(e_att, trigger_att, end_feature)
