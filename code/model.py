@@ -162,7 +162,6 @@ class MyBertmodel(BertPreTrainedModel):
         event_emb = torch.stack(event_emb, dim=0)
 
         span_num = spans.size(1)
-        # ================= FUSION =================
         loss = 0
         global_feature = last_hidden_state
         global_att = attention.mean(1)
@@ -174,7 +173,6 @@ class MyBertmodel(BertPreTrainedModel):
         trigger_att = self.select_single_token_rep(final_att, trigger_index).unsqueeze(1).expand(-1, span_num, -1)
         len_state = self.len_embedding(span_lens) # bsz * span_num * pos_size
 
-        # span loss
         b_feature = self.select_rep(start_feature, spans[:,:,0])
         e_feature = self.select_rep(end_feature, spans[:,:,1])
         b_att = self.select_rep(final_att, spans[:,:,0])
@@ -373,7 +371,6 @@ class MyRobertamodel(RobertaPreTrainedModel):
         trigger_att = self.select_single_token_rep(final_att, trigger_index).unsqueeze(1).expand(-1, span_num, -1)
         len_state = self.len_embedding(span_lens) # bsz * span_num * pos_size
 
-        # span loss
         b_feature = self.select_rep(start_feature, spans[:,:,0])
         e_feature = self.select_rep(end_feature, spans[:,:,1])
         b_att = self.select_rep(final_att, spans[:,:,0])
@@ -419,7 +416,7 @@ class MyRobertamodel(RobertaPreTrainedModel):
             focal_loss = MultiCEFocalLoss(self.num_labels)
             loss = focal_loss(logits[labels > -100], labels[labels > -100])
 
-        # startend loss
+        # start/end boundary loss
         if self.lambda_boundary > 0:
             start_logits = self.start_classifier(start_feature)
             end_logits = self.end_classifier(end_feature)
